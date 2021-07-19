@@ -18,11 +18,13 @@ const labelElement = document.getElementById('label');
 const previousBtn = document.getElementById('previous');
 const nextBtn = document.getElementById('next');
 function loadFirstSlide(){
+    imgElement.src = "images/image-tanya.jpg";
     paragraphElement.innerText = `${firstSlide.paragraph}`;
     nameElement.innerText = `${firstSlide.name}`;
     labelElement.innerText = `${firstSlide.label}`;
 }
 function loadSecondSlide(){
+    imgElement.src = "images/image-john.jpg";
     paragraphElement.innerText = `${secondSlide.paragraph}`;
     nameElement.innerText = `${secondSlide.name}`;
     labelElement.innerText = `${secondSlide.label}`;
