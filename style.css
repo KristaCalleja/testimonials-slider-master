@@ -9,7 +9,6 @@ body{
     font-family: 'Inter', sans-serif;
 }
 .wrapper{
-    border: 2px purple solid;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -17,11 +16,9 @@ body{
     align-items: center;
 }
 .flex{
-    border: 4px red dotted;
     max-width: 410px;
 }
 .img{
-    border: 3px green dotted;
     position: relative;
     /* To center elements */
     margin: auto;
@@ -67,7 +64,6 @@ img:first-of-type:not(.controls img){
     padding: 0 1.5em;
 }
 .text-area div{
-    border: 1px gray solid;
     text-align: center;
     position: relative;
 }
