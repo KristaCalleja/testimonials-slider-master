@@ -1,11 +1,11 @@
 // Create an Object using Object Literal Syntax
 const firstSlide = {
-    paragraph: "Ive been interested in coding for a while but never taken the jump, until now. I couldnt recommend this course enough. Im now in the job of my dreams and so excited about the future.",
+    paragraph: `" I've been interested in coding for a while but never taken the jump, until now. I couldn't recommend this course enough. I'm now in the job of my dreams and so excited about the future. "`,
     name: "Tanya Sinclair",
     label: "UX Engineer",
 }
 const secondSlide = {
-    paragraph: "If you want to lay the best foundation possible Id recommend taking this course. The depth the instructors go into is incredible. I now feel so confident about starting up as a professional developer.",
+    paragraph: `" If you want to lay the best foundation possible I'd recommend taking this course. The depth the instructors go into is incredible. I now feel so confident about starting up as a professional developer. "`,
     name: "John Tarkpor",
     label: "Junior Front-End Developer", 
 }
@@ -29,5 +29,8 @@ function loadSecondSlide(){
     nameElement.innerText = `${secondSlide.name}`;
     labelElement.innerText = `${secondSlide.label}`;
 }
+// Set default load
+window.onload = loadFirstSlide;
+// Set event handlers on controls
 previousBtn.addEventListener('click', loadFirstSlide);
 nextBtn.addEventListener('click', loadSecondSlide);
