@@ -105,9 +105,6 @@ p, h3:not(h3:last-of-type){
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
-#profile, #text-2, #label-2{
-    display: none;
-}
 @media (min-width: 900px){
     .flex{
         display: flex;
